@@ -1,31 +1,7 @@
 import React from "react";
 import moment from "moment";
 
-const SearchResults = () => {
-  const bookings = [
-    {
-      id: 1,
-      title: "Mr",
-      firstName: "John",
-      surname: "Doe",
-      email: "johndoe@example.com",
-      roomId: 101,
-      checkInDate: "2023-06-01",
-      checkOutDate: "2023-06-05",
-    },
-    {
-      id: 2,
-      title: "Mrs",
-      firstName: "Jane",
-      surname: "Smith",
-      email: "janesmith@example.com",
-      roomId: 202,
-      checkInDate: "2023-06-03",
-      checkOutDate: "2023-06-08",
-    },
-    
-  ];
-
+const SearchResults = ({ bookings }) => {
   return (
     <div className="search-results">
       <table className="table">
@@ -39,7 +15,7 @@ const SearchResults = () => {
             <th>Room ID</th>
             <th>Check-In Date</th>
             <th>Check-Out Date</th>
-            <th>Nights</th> 
+            <th>Nights</th>
           </tr>
         </thead>
         <tbody>
@@ -58,7 +34,7 @@ const SearchResults = () => {
                 <td>{booking.roomId}</td>
                 <td>{booking.checkInDate}</td>
                 <td>{booking.checkOutDate}</td>
-                <td>{nights}</td> {/* New column */}
+                <td>{nights}</td>
               </tr>
             );
           })}

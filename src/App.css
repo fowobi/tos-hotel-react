@@ -8,14 +8,16 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 50px;
-  padding: 20px;
+  background-color:grey;
+  height: 70px;
+  /* padding: 20px; */
+  padding-top: 10px;
   color: white;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 2em;
   font-weight: bold;
+  margin-left: 8rem;
 }
 
 .App-title {
@@ -51,11 +53,39 @@ tr {
   padding-top: 20px;
   text-align: center;
 }
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .card {
-  width: 18rem;
+  width: 38rem;
+  /* margin-top: -1.5rem; */
+  
 }
 .hotel-logo{
-  border: 5px solid blue;
-  width: 15rem;
+  /* border: 5px solid blue; */
+  width: 8rem;
+  height: 4.5rem;
+  margin-top: -6rem;
+}
+.search-results{
+  /* border: 5px solid red; */
+  width: 70rem;
+}
+
+
+
+th{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+td {
+  border: 2px solid black;
+  /* padding: 8px; */
+}
+h1{
+  text-align: center;
 }

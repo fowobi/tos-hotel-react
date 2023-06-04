@@ -3,7 +3,7 @@ import React from "react";
 const Cards = () =>{
     return (
       <div className="Cards">
-        <div className="Glasgow">
+        <div className="card">
           <img
             src="https://images.unsplash.com/photo-1623401586941-7c26e4355151?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2xhc2dvd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60"
             className="card-img"
@@ -21,7 +21,7 @@ const Cards = () =>{
           </div>
         </div>
 
-        <div className="Manchester">
+        <div className="card">
           <img
             src="https://images.unsplash.com/photo-1619284518317-85b1ab8c7723?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuY2hlc3RlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60"
             className="card-img"
@@ -39,7 +39,7 @@ const Cards = () =>{
           </div>
         </div>
 
-        <div className="London">
+        <div className="card">
           <img
             src="https://media.istockphoto.com/id/1298168948/photo/blooming-tree-in-spring-in-hyde-park-london-uk.webp?b=1&s=170667a&w=0&k=20&c=G9pk6ElYRNnF9BIq9DgSx41DJ8BwW5GcAoTzQGn2Skk="
             className="card-img"
