@@ -12,10 +12,12 @@ const Restaurant = () => {
       return (
         <div>
           <h3>Restaurant Orders</h3>
-          <ul className="pizzas-list">
+          <ul className="order-list">
             <Orders orderType="Pizzas" />
             <Orders orderType="Salads" />
             <Orders orderType="Chocolate cake" />
+            
+            
           </ul>
         </div>
       );

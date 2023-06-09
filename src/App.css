@@ -92,3 +92,7 @@ h1{
 .footer-list{
   list-style-type: none;
 }
+.order-list{
+  display: flex;
+  gap: 2rem;
+}
