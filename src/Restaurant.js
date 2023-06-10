@@ -3,9 +3,6 @@ import Orders from "./components/Orders";
 
 
 
-
-
-
 const Restaurant = () => {
  
 
