@@ -82,7 +82,7 @@ th{
   background-color: black;
   color: white;
 }
-td {
+td,tr {
   border: 2px solid black;
   /* padding: 8px; */
 }
@@ -95,4 +95,9 @@ h1{
 .order-list{
   display: flex;
   gap: 2rem;
+ 
+  
+}
+tr.selected {
+  background-color: yellow;
 }
