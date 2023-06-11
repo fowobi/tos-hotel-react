@@ -56,6 +56,7 @@ const SearchResults = ({ bookings }) => {
           })}
         </tbody>
       </table>
+      
     </div>
   );
 };
