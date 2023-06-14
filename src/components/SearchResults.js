@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import moment from "moment";
+import CustomerProfile from "./CustomerProfile";
 
 const SearchResults = ({ bookings }) => {
   const [selectedRows, setSelectedRows] = useState([]);
+  const [selectedCustomerId, setSelectedCustomerId] = useState(null);
+  const [customerProfile, setCustomerProfile] = useState(null);
+
 
   const toggleRowSelection = (id) => {
     setSelectedRows((prevSelectedRows) => {
@@ -13,6 +17,21 @@ const SearchResults = ({ bookings }) => {
       }
     });
   };
+     const showCustomerProfile = (id) => {
+       setSelectedCustomerId(id);
+     };
+
+     useEffect(() => {
+       if (selectedCustomerId) {
+         fetch(`https://cyf-react.glitch.me/customers/${selectedCustomerId}`)
+           .then((response) => response.json())
+           .then((data) => setCustomerProfile(data))
+           .catch((error) =>
+             console.error("Error fetching customer profile:", error)
+           );
+       }
+     }, [selectedCustomerId]);
+
 
   return (
     <div className="search-results">
@@ -51,12 +70,18 @@ const SearchResults = ({ bookings }) => {
                 <td>{booking.checkInDate}</td>
                 <td>{booking.checkOutDate}</td>
                 <td>{nights}</td>
+                
+                <td>
+                  <button onClick={() => showCustomerProfile(booking.id)}>
+                    Show profile
+                  </button>
+                </td>
               </tr>
             );
           })}
         </tbody>
       </table>
-      
+      {selectedCustomerId && <CustomerProfile profile={customerProfile} />}
     </div>
   );
 };
