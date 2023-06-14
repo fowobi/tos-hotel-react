@@ -101,3 +101,7 @@ h1{
 tr.selected {
   background-color: yellow;
 }
+.profile{
+  border: 5px solid black;
+  margin-bottom: 2rem;
+}

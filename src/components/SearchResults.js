@@ -47,6 +47,7 @@ const SearchResults = ({ bookings }) => {
             <th>Check-In Date</th>
             <th>Check-Out Date</th>
             <th>Nights</th>
+            <th>Show Customer Profile</th>
           </tr>
         </thead>
         <tbody>
@@ -70,7 +71,7 @@ const SearchResults = ({ bookings }) => {
                 <td>{booking.checkInDate}</td>
                 <td>{booking.checkOutDate}</td>
                 <td>{nights}</td>
-                
+
                 <td>
                   <button onClick={() => showCustomerProfile(booking.id)}>
                     Show profile

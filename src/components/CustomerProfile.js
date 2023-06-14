@@ -20,7 +20,7 @@ const CustomerProfile = ({ profile }) => {
   }
 
   return (
-    <div>
+    <div className="profile">
       <h2>Customer Profile</h2>
       <ul>
         <li>ID: {profile.id}</li>
