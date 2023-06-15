@@ -52,18 +52,35 @@ tr {
 .footer {
   padding-top: 20px;
   text-align: center;
-}
-.cards-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: black;
+  color: white;
 }
 
+
 .card {
-  width: 38rem;
+  width: 25rem;
+  transition: 0.50s;
   /* margin-top: -1.5rem; */
+  /* border: 5px solid red; */
+  /* display: flex; */
+  
   
 }
+.Cards{
+  display: flex;
+  gap: 2rem;
+  /* margin-left: 5rem; */
+  justify-content: center;
+  
+
+}
+.card-img{
+  height: 15rem;
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+
 .hotel-logo{
   /* border: 5px solid blue; */
   width: 8rem;
@@ -104,4 +121,6 @@ tr.selected {
 .profile{
   border: 5px solid black;
   margin-bottom: 2rem;
+  background-color: beige;
+  color: royalblue;
 }
