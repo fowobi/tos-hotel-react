@@ -15,7 +15,11 @@ const Cards = () =>{
               Discover the vibrant city of Glasgow with its rich culture and
               history.
             </p>
-            <a href="https://peoplemakeglasgow.com" className="btn btn-primary">
+            <a
+              href="https://peoplemakeglasgow.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
               Visit Website
             </a>
           </div>
@@ -33,7 +37,11 @@ const Cards = () =>{
               Experience the dynamic city of Manchester with its bustling music
               scene and iconic landmarks.
             </p>
-            <a href="https://visitmanchester.com" className="btn btn-primary">
+            <a
+              href="https://visitmanchester.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
               Visit Website
             </a>
           </div>
@@ -51,7 +59,11 @@ const Cards = () =>{
               Explore the cosmopolitan city of London with its world-class
               attractions and diverse culture.
             </p>
-            <a href="https://visitlondon.com" className="btn btn-primary">
+            <a
+              href="https://visitlondon.com"
+              target="_blank"
+              className="btn btn-primary"
+            >
               Visit Website
             </a>
           </div>
