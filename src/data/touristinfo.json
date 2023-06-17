@@ -1,0 +1,57 @@
+[
+  {
+    "img": {
+      "src": "https://images.unsplash.com/photo-1623401586941-7c26e4355151?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2xhc2dvd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "className": "card-img",
+      "alt": "Glasgow"
+    },
+    "cardBody": {
+      "className": "card-body",
+      "city": "Glasgow",
+      "description": "Discover the vibrant city of Glasgow with its rich culture and history.",
+      "link": {
+        "href": "https://peoplemakeglasgow.com",
+        "target": "_blank",
+        "className": "btn btn-primary",
+        "text": "Visit Website"
+      }
+    }
+  },
+  {
+    "img": {
+      "src": "https://images.unsplash.com/photo-1623401586941-7c26e4355151?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2xhc2dvd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "className": "card-img",
+      "alt": "Glasgow"
+    },
+    "cardBody": {
+      "className": "card-body",
+      "heading": "Glasgow",
+      "description": "Discover the vibrant city of Glasgow with its rich culture and history.",
+      "link": {
+        "href": "https://peoplemakeglasgow.com",
+        "target": "_blank",
+        "className": "btn btn-primary",
+        "text": "Visit Website"
+      }
+    }
+  },
+  {
+    "img": {
+      "src": "https://images.unsplash.com/photo-1623401586941-7c26e4355151?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Z2xhc2dvd3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60",
+      "className": "card-img",
+      "alt": "Glasgow"
+    },
+    "cardBody": {
+      "className": "card-body",
+      "heading": "Glasgow",
+      "description": "Discover the vibrant city of Glasgow with its rich culture and history.",
+      "link": {
+        "href": "https://peoplemakeglasgow.com",
+        "target": "_blank",
+        "className": "btn btn-primary",
+        "text": "Visit Website"
+      }
+    }
+  }
+  
+]
