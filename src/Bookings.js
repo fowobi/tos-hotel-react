@@ -15,7 +15,7 @@ const Bookings = () => {
        fetch("https://cyf-react.glitch.me/delayed")
          .then((response) => {
            if (!response.ok) {
-             throw new Error("Failed to fetch data"); // Throw an error if response is not ok
+             throw new Error("Failed to fetch data"); 
            }
            return response.json();
          })

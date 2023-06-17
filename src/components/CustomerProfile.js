@@ -1,22 +1,9 @@
-// import React from "react";
-
-
-
-// const CustomerProfile = ({ id }) => {
-//   return <div>Customer {id} profile</div>;
-// };
-
-
-
-
-// export default CustomerProfile;
-
 
 import React from "react";
 
 const CustomerProfile = ({ profile }) => {
   if (!profile) {
-    return null; // Don't render anything if the profile is not available yet
+    return null; 
   }
 
   return (
