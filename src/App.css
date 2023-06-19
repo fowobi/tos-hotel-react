@@ -128,10 +128,8 @@ tr.selected {
   color: royalblue;
 }
 
-.booking-form-date-picker {
-  display: flex;
-  flex-direction: column;
-}
-.custom-datepicker {
-  width: 100%;
-}
+/* .title-input{
+  border: 5px solid red; 
+  margin-left: 20rem;
+  
+} */

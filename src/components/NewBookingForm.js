@@ -594,7 +594,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import moment from "moment";
 
-const NewBookingForm = ({ handleAddBooking }) => {
+  const NewBookingForm = ({ handleAddBooking }) => {
   
     const [newBooking, setNewBooking] = useState({
       firstName: "",
@@ -696,7 +696,7 @@ const NewBookingForm = ({ handleAddBooking }) => {
       
         <h2>Create a new booking</h2>
         <div>
-          <label>
+          <label className="title-input">
             Title:
             <input
               type="text"
