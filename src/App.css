@@ -127,3 +127,11 @@ tr.selected {
   background-color: beige;
   color: royalblue;
 }
+
+.booking-form-date-picker {
+  display: flex;
+  flex-direction: column;
+}
+.custom-datepicker {
+  width: 100%;
+}
