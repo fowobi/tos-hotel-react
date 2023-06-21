@@ -103,7 +103,7 @@ th{
   color: white;
 }
 td,tr {
-  border: 2px solid black;
+  border: 3px solid black;
   /* padding: 8px; */
 }
 h1{
@@ -115,21 +115,70 @@ h1{
 .order-list{
   display: flex;
   gap: 2rem;
+  margin-left: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
  
   
 }
-tr.selected {
-  background-color: yellow;
+.selected-row {
+  background: yellow;
 }
 .profile{
-  border: 5px solid black;
+  border: 5px solid blue;
   margin-bottom: 2rem;
   background-color: beige;
   color: royalblue;
 }
+.cust-profile{
+  margin-left: 2rem;
+}
+.rest-order{
+  text-align: center;
+}
 
-/* .title-input{
-  border: 5px solid red; 
+.new-booking-form{
+  border: 5px solid blue;
+  background-color: beige;
+  margin-bottom: 2rem;
+}
+.new-booking{
+  text-align: center;
+  margin-top: 1rem;
+}
+.title-input{
+  margin-left: 25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.title-input-fn{
+  margin-left: 22rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.title-value{
+  margin-left: 0.5rem;
+}
+.title-input-surn{
+  margin-left: 23rem;
+}
+.title-input-ck{
+  margin-left: 21rem;
+}
+.title-input-ckout{
   margin-left: 20rem;
-  
-} */
+}
+.title-input-rm{
+  margin-left: 23.5rem;
+}
+.submit-btn-ck{
+  margin-left: 30rem;
+  font-size: 20px;
+  border-radius: 0.5rem;
+  width: 6rem;
+  background: royalblue;
+  color: white;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
