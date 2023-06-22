@@ -121,7 +121,7 @@ h1{
  
   
 }
-.selected-row {
+tr.selected-row {
   background: yellow;
 }
 .profile{
@@ -181,4 +181,10 @@ h1{
   color: white;
   margin-bottom: 2rem;
   margin-top: 1rem;
+}
+.success-message{
+  color: red;
+  margin-left: 0.4rem;
+  margin-bottom: 0.4rem;
+  font-size: 24px;
 }

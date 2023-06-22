@@ -40,8 +40,15 @@ const Bookings = () => {
         return response.json();
       })
       .then((data) => {
-        setBookings(data);
+        // setBookings(data);
+        const filteredBookings = bookings.filter(
+          (booking) =>
+            booking.firstName.toLowerCase().includes(searchVal.toLowerCase()) ||
+            booking.surname.toLowerCase().includes(searchVal.toLowerCase())
+        );
+        setBookings(filteredBookings);
       })
+
       .catch((error) => {
         console.error("Error fetching search results:", error);
         setError(error);

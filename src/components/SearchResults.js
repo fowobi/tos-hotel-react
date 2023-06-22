@@ -332,10 +332,10 @@ const SearchResults = ({ bookings }) => {
       setSelectedCustomerId(customerId);
     }
   };
-
+       
   return (
     <div>
-      <table className="table table-striped">
+      <table className="table table-strip">
         <thead>
           <tr>
             <th onClick={() => handleSort("title")}>
@@ -378,10 +378,14 @@ const SearchResults = ({ bookings }) => {
               "days"
             );
             const isRowSelected = selectedCustomerId === booking.id;
-            const rowClassName = isRowSelected ? "selected-row" : "";
-
+             const rowClassName = isRowSelected ? "selected-row" : "";
+                 
             return (
-              <tr key={booking.id} className={rowClassName}>
+              <tr
+                key={booking.id}
+                className={rowClassName}
+              
+              >
                 <td>{booking.title}</td>
                 <td>{booking.firstName}</td>
                 <td>{booking.surname}</td>
@@ -406,6 +410,12 @@ const SearchResults = ({ bookings }) => {
 };
 
 export default SearchResults;
+
+
+
+
+
+
 
 
 
