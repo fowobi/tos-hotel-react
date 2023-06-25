@@ -135,6 +135,7 @@ tr.selected-row {
 }
 .rest-order{
   text-align: center;
+ 
 }
 
 .new-booking-form{
@@ -187,4 +188,20 @@ tr.selected-row {
   margin-left: 0.4rem;
   margin-bottom: 0.4rem;
   font-size: 24px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(30%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.rest-order {
+  animation: scroll 10s linear infinite;
+  white-space: nowrap;
+  overflow: hidden;
 }

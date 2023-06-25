@@ -8,7 +8,7 @@ const Orders = ({orderType}) => {
   };
 
   return (
-    <li>
+    <li className="order">
       {orderType}: {orders}{" "}
       <button className="btn btn-primary" onClick={orderOne}>
         Add

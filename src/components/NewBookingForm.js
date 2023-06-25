@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import moment from "moment";
@@ -6,8 +6,7 @@ import moment from "moment";
   
 
 
-  const NewBookingForm = ({ handleAddBooking }) => {
-  
+   const NewBookingForm = ({ handleAddBooking }) => {
     const [newBooking, setNewBooking] = useState({
       firstName: "",
       surname: "",
@@ -35,6 +34,8 @@ import moment from "moment";
       if (!validateForm()) {
         return;
       }
+
+
       handleAddBooking(newBooking);
       setNewBooking({
         firstName: "",
