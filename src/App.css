@@ -133,10 +133,7 @@ tr.selected-row {
 .cust-profile{
   margin-left: 2rem;
 }
-.rest-order{
-  text-align: center;
- 
-}
+
 
 .new-booking-form{
   border: 5px solid blue;
@@ -201,7 +198,8 @@ tr.selected-row {
 }
 
 .rest-order {
-  animation: scroll 10s linear infinite;
+  text-align: center;
+  animation: scroll 15s linear infinite;
   white-space: nowrap;
   overflow: hidden;
 }
