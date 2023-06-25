@@ -11,17 +11,17 @@
 .App-header {
   background-color:grey;
   height: 70px;
-  /* padding: 20px; */
   padding-top: 10px;
   color: white;
-  text-align: left;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
   font-weight: bold;
   margin-left: 8rem;
-
   
 }
+
+  
 
 .App-title {
   font-size: 1.5em;
@@ -55,17 +55,16 @@ tr {
 .footer {
   padding-top: 20px;
   text-align: center;
-  background-color: black;
+  background-color: grey;
   color: white;
+  font-size: large;
 }
 
 
 .card {
   width: 25rem;
   transition: 0.50s;
-  /* margin-top: -1.5rem; */
-  /* border: 5px solid red; */
-  /* display: flex; */
+  
   
   
 }
@@ -101,7 +100,7 @@ tr {
 
 th{
   border: 1px solid black;
-  background-color: black;
+  background-color: grey;
   color: white;
 }
 td,tr {
@@ -122,10 +121,11 @@ td,tr {
   
 }
 tr.selected-row {
-  background: yellow;
+  background: grey;
+  color: white;
 }
 .profile{
-  border: 5px solid blue;
+  border: 5px solid grey;
   margin-bottom: 2rem;
   background-color: beige;
   color: royalblue;
@@ -136,11 +136,13 @@ tr.selected-row {
 
 
 .new-booking-form{
-  border: 5px solid blue;
+  border: 5px solid grey;
   background-color: beige;
   margin-bottom: 2rem;
 }
 .new-booking{
+  color: grey;
+  font-weight: bold;
   text-align: center;
   margin-top: 1rem;
 }
@@ -198,6 +200,8 @@ tr.selected-row {
 
 
 .rest-order {
+  color: grey;
+  font-weight: bold;
   text-align: center;
   animation: scroll 15s linear infinite;
   white-space: nowrap;
@@ -206,6 +210,7 @@ tr.selected-row {
 
 
 h1 {
+  color: grey;
   text-align: center;
   animation: scroll 15s linear infinite;
   white-space: nowrap;
