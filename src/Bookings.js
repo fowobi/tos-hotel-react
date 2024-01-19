@@ -13,8 +13,8 @@ const Bookings = () => {
   useEffect(() => {
     setIsLoading(true);
 
-    // fetch("https://cyf-react.glitch.me/delayed")
-    fetch("https://tosin-hotel-server.glitch.me/delayed")
+    fetch("https://cyf-react.glitch.me/delayed")
+    
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch data");
@@ -33,8 +33,8 @@ const Bookings = () => {
   }, []);
 
   const search = (searchVal) => {
-    // fetch(`https://cyf-react.glitch.me/delayed?search=${searchVal}`)
-    fetch(`https://tosin-hotel-server.glitch.me/delayed?search=${searchVal}`)
+    fetch(`https://cyf-react.glitch.me/delayed?search=${searchVal}`)
+    
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch data");

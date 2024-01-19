@@ -1,52 +1,3 @@
-
-// import React from "react";
-
-// const CustomerProfile = ({ profile }) => {
-//   if (!profile) {
-//     return null; 
-//   }
-
-//   return (
-//     <div className="profile">
-//       <h2>Customer Profile</h2>
-//       <ul>
-//         <li>ID: {profile.id}</li>
-//         <li>Email: {profile.email}</li>
-//         <li>VIP: {profile.vip ? "Yes" : "No"}</li>
-//         <li>Phone: {profile.phoneNumber}</li>
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default CustomerProfile;
-
-
-
-
-// import React from "react";
-
-// const CustomerProfile = ({ profile }) => {
-//   if (!profile) {
-//     return null;
-//   }
-
-//   return (
-//     <div className="profile">
-//       <h2>Customer Profile</h2>
-//       <ul>
-//         <li>ID: {profile.id.toString()}</li>
-//         <li>Email: {profile.email}</li>
-//         <li>VIP: {profile.vip ? "Yes" : "No"}</li>
-//         <li>Phone: {profile.phoneNumber.toString()}</li>
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default CustomerProfile;
-
-
 import React, { useState, useEffect } from "react";
 
 const CustomerProfile = ({ id }) => {
@@ -57,6 +8,7 @@ const CustomerProfile = ({ id }) => {
       try {
         const response = await fetch(
           `https://cyf-react.glitch.me/customers/${id}`
+          
         );
         const data = await response.json();
         setCustomerProfile(data);
