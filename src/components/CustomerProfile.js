@@ -9,6 +9,7 @@ const CustomerProfile = ({ id }) => {
         const response = await fetch(
           `https://cyf-react.glitch.me/customers/${id}`
           
+          
         );
         const data = await response.json();
         setCustomerProfile(data);
